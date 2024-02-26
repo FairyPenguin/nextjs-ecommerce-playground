@@ -1,0 +1,163 @@
+/* styles.css */
+/* button {
+  all: unset;
+} */
+
+.button__base {
+  /* Main Styles*/
+  align-self: center;
+  display: flex;
+  column-gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  cursor: pointer;
+  text-decoration: none;
+  width: 100%;
+}
+
+/* .button__base a {
+}
+
+.button__base span {
+} */
+
+.button__primary {
+  /* */
+  border-radius: 0.5rem;
+  height: 3.3rem;
+  padding-inline: 2rem;
+  padding-block: 0.4rem;
+}
+
+.button__rounded {
+  /* */
+  border-radius: 2.8rem;
+  padding-inline: 2rem;
+  padding-block: 0.4rem;
+}
+
+.button__text {
+  padding-inline: 0.5rem;
+  padding-block: 0.25rem;
+  column-gap: 0.2rem;
+  width: fit-content;
+  align-self: auto;
+}
+
+.button__small {
+  /* Small */
+  min-width: 7rem;
+  height: fit-content;
+  font-weight: bold;
+  font-size: var(--btn-fsz-small);
+}
+
+.button__medium {
+  /* Medium */
+  font-size: var(--btn-fsz-meduim);
+  font-weight: 700;
+  min-width: 9rem;
+}
+
+.button__underlined {
+  text-decoration: underline;
+}
+
+.button__medium__rounded {
+  /* Medium */
+  font-size: var(--btn-fsz-meduim);
+  font-weight: 700;
+  min-width: 9rem;
+  height: 3.3rem;
+
+  /* Rounded */
+  display: inline-block;
+
+  border-radius: 2.8rem;
+  padding-inline: 2.25rem;
+  padding-block: 0.8rem;
+}
+
+/* Enabled State */
+
+.button__base:enabled {
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button__blue {
+  /* Blue */
+  background-color: var(--blue-btn-bkg);
+  color: white;
+}
+
+.button__blue:enabled:hover {
+  /* box-shadow: 10px 10px 15px 0px var(--blue-btn-bkg); */
+}
+
+.button__purple {
+  background-color: var(--purple-btn-bkg);
+  color: white;
+}
+
+.button__purple:enabled:hover {
+  /* box-shadow: 10px 10px 15px 0px var(--purple-btn-bkg); */
+}
+
+.button__prurple__nobackground {
+  background-color: transparent;
+  color: var(--purple-btn-bkg);
+}
+
+.button__prurple__nobackground:enabled:hover {
+  text-decoration: line-through;
+}
+.button__red__nobackground {
+  background-color: transparent;
+  color: var(--dark-color);
+}
+
+.button__red__nobackground:enabled:hover {
+  text-decoration: line-through;
+}
+
+/* Diabled State */
+
+.button__base:disabled {
+  transition: all 0.3s linear;
+}
+
+.button__base:disabled {
+  background-color: var(--secondery-color);
+  color: var(--white-color);
+}
+
+.button__base:disabled:hover {
+  /* box-shadow: 0px 1px 5px 0px var(--danger-color); */
+  border: 2px solid var(--danger-color);
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 480px) {
+  .button__base {
+    width: 85%;
+  }
+  .button__text {
+    width: fit-content;
+  }
+}
+
+/* Media Queries */
+
+/* 
+
+background color
+font-size
+color
+ICON ==> ==> + True/False
+
+hover background color
+
+
+*/

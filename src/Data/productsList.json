@@ -1,0 +1,58 @@
+[
+  {
+    "id": "1",
+    "productName": "iPhone 14 Pro Max 256GB Deep Purple 5G With FaceTime - Middle East Version",
+    "productPrice": "399",
+    "firstImage": "ProductImage",
+    "secondImage": "ProductImage2"
+  },
+  {
+    "id": "2",
+    "productName": "HAVIT H2019U RGB Surround Sound Gaming Headset USB - Blue",
+    "productPrice": "1500",
+    "firstImage": "ProductImage3",
+    "secondImage": "ProductImage4"
+  },
+  {
+    "id": "3",
+    "productName": "iPhone 14 Pro Max 256GB Deep Purple 5G With FaceTime - Middle East Version",
+    "productPrice": "399",
+    "firstImage": "ProductImage",
+    "secondImage": "ProductImage2"
+  },
+  {
+    "id": "4",
+    "productName": "HAVIT H2019U RGB Surround Sound Gaming Headset USB - Blue",
+    "productPrice": "1500",
+    "firstImage": "ProductImage3",
+    "secondImage": "ProductImage4"
+  },
+  {
+    "id": "5",
+    "productName": "iPhone 14 Pro Max 256GB Deep Purple 5G With FaceTime - Middle East Version",
+    "productPrice": "399",
+    "firstImage": "ProductImage",
+    "secondImage": "ProductImage2"
+  },
+  {
+    "id": "6",
+    "productName": "HAVIT H2019U RGB Surround Sound Gaming Headset USB - Blue",
+    "productPrice": "1500",
+    "firstImage": "ProductImage3",
+    "secondImage": "ProductImage4"
+  },
+  {
+    "id": "7",
+    "productName": "iPhone 14 Pro Max 256GB Deep Purple 5G With FaceTime - Middle East Version",
+    "productPrice": "399",
+    "firstImage": "ProductImage",
+    "secondImage": "ProductImage2"
+  },
+  {
+    "id": "8",
+    "productName": "HAVIT H2019U RGB Surround Sound Gaming Headset USB - Blue",
+    "productPrice": "1500",
+    "firstImage": "ProductImage3",
+    "secondImage": "ProductImage4"
+  }
+]

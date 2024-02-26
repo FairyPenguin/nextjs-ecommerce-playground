@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone 15",
+    "price": 10,
+    "discountPrice": 8,
+    "brand": "Apple",
+    "description": "lorem ipsum",
+    "inStock": true,
+    "quantity": 20,
+    "images": {},
+    "mainImage": "https://i.postimg.cc/W4NXVBrF/shopping-cart-page-01-product-01.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Samsung Galaxy",
+    "price": 10,
+    "discountPrice": 0,
+    "brand": "Apple",
+    "description": "lorem ipsum",
+    "quantity": 30,
+    "inStock": true,
+    "images": {},
+    "mainImage": "https://i.postimg.cc/NjwdJ9jx/shopping-cart-page-01-product-02.jpg"
+  },
+  {
+    "id": 3,
+    "name": "T-Shirt Black",
+    "price": 10,
+    "discountPrice": 0,
+    "brand": "Apple",
+    "description": "lorem ipsum",
+    "quantity": 30,
+    "inStock": true,
+    "images": {},
+    "mainImage": "https://i.postimg.cc/NjwdJ9jx/shopping-cart-page-01-product-02.jpg"
+  }
+]

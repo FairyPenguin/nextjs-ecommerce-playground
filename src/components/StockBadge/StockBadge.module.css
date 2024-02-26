@@ -1,0 +1,20 @@
+.stock__badge {
+  font-weight: var(--fw-600);
+  font-size: var(--p-fsz-small);
+  width: fit-content;
+  padding: 0.2rem 0.5rem;
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.instock {
+  color: rgb(22 101 52);
+  background-color: rgb(220 252 231);
+}
+
+.outofstock {
+  color: rgb(153 27 27);
+  background-color: rgb(254 242 242);
+}

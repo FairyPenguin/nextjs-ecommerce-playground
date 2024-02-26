@@ -1,0 +1,205 @@
+.shopping__cart__container {
+  padding-block: var(--section-padding-block);
+  display: grid;
+  column-gap: 3rem;
+  row-gap: 3rem;
+}
+
+.products__list {
+  border-bottom: 1px solid var(--gray-400-color);
+  /* padding-block: var(--spacer4); */
+}
+
+.order__summary {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  padding-block: var(--spacer7);
+  background-color: var(--gray-300-color);
+  padding: var(--spacer6);
+  gap: 2rem;
+}
+
+.order__summary__title {
+  font-size: var(--font-size-large);
+  font-weight: 500;
+}
+
+.subtotal {
+  display: flex;
+  justify-content: space-between;
+  padding-block: var(--heading-padding-block);
+}
+
+.summary__item {
+  border-bottom: 1px solid var(--gray-500-color);
+}
+
+.checkout__btn {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .shopping__cart__container {
+    display: grid;
+    /* grid-template-columns: 56% 40%; */
+    align-items: flex-start;
+    column-gap: 3rem;
+    row-gap: 3rem;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  .products__list {
+    border-bottom: 1px solid var(--gray-400-color);
+    grid-column: span 7 / span 7;
+  }
+
+  .order__summary {
+    display: flex;
+    flex-direction: column;
+    grid-column: span 5 / span 5;
+    margin-top: 0;
+  }
+}
+
+.product__card__preview {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  border-top: 1px solid var(--gray-400-color);
+  padding-block: var(--spacer4);
+}
+
+.product__card__preview__img img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  max-width: 6.25rem;
+  max-height: 6.25rem;
+}
+
+.proudct__card__preview__details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* gap: 3rem; */
+}
+
+.product__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.4rem;
+}
+
+.product__name {
+  font-size: var(--font-size-medium);
+  font-weight: var(--fw-600);
+  text-wrap: balance;
+}
+
+.product__selected__variants {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  row-gap: 0.25rem;
+  column-gap: 0.8rem;
+  padding-top: var(--spacer3);
+}
+
+.product__selected__variants span {
+  font-size: var(--font-size-body);
+  color: var(--gray-700-color);
+  width: var(--heading-width);
+  grid-column: span 2;
+  color: var(--dark-color);
+  background-color: var(--gray-500-color);
+  border-radius: 1rem;
+  padding: 0.2rem 0.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+.product__selected__variants span:nth-child(3):last-child {
+  grid-column: span 2;
+}
+
+@media screen and (min-width: 480px) and (max-width: 639px) {
+  .product__selected__variants span {
+    grid-column: span 1;
+  }
+}
+
+/* .product__selected__variants span:nth-child(even) {
+    border-left: 0;
+    padding-left: 0;
+  }
+  
+  .product__selected__variants span:nth-child(odd) {
+    padding-right: 0;
+  } */
+
+.product__price {
+  padding-top: var(--spacer3);
+  font-weight: var(--fw-500);
+}
+
+.product__stock__avilability {
+  padding-top: var(--spacer3);
+  column-gap: 1rem;
+  row-gap: 1rem;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+@media screen and (min-width: 640px) {
+  .product__stock__avilability {
+    padding-top: var(--spacer3);
+    column-gap: 1rem;
+    row-gap: 1rem;
+    flex-direction: row;
+  }
+
+  .product__card__preview__img img {
+    max-width: 12.25rem;
+    max-height: 12.25rem;
+  }
+
+  .product__selected__variants {
+    row-gap: 0.4rem;
+  }
+
+  .product__selected__variants span {
+    font-size: var(--font-size-body);
+    font-weight: var(--fw-400);
+    /* width: var(--heading-width); */
+    grid-column: span 1;
+  }
+
+  .product__selected__variants span:nth-child(even) {
+    border-left: 1px solid grey;
+    /* padding-left: var(--spacer3); */
+  }
+}
+
+.remove__btn {
+  color: var(--purple-btn-text-color);
+  color: var(--purple-btn-bkg);
+  font-size: var(--btn-fsz-small);
+  min-width: 7rem;
+  display: inline-block;
+  padding-inline: 0.5rem;
+  padding-block: 0.25rem;
+  display: flex;
+  align-items: center;
+  column-gap: 0.2rem;
+  /* margin-block: 1rem; */
+  text-decoration: underline;
+}
+
+/* .proudct__card__preview__details {
+  } */
+
+/*
+   ========================================BTN--------
+   */

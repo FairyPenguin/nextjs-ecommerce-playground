@@ -1,0 +1,30 @@
+{
+  "variant_options": [
+    {
+      "name": "Color",
+      "options": [
+        {
+          "name": "Red",
+          "qty": 10
+        },
+        {
+          "name": "Blue",
+          "qty": 5
+        }
+      ]
+    },
+    {
+      "name": "Storage",
+      "options": [
+        {
+          "name": "64GB",
+          "qty": 8
+        },
+        {
+          "name": "128GB",
+          "qty": 12
+        }
+      ]
+    }
+  ]
+}

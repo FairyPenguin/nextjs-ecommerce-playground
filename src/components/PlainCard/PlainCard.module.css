@@ -1,0 +1,106 @@
+.feature__card {
+  padding-inline: 1rem;
+  padding-block: 1rem;
+  border-radius: 0.25rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 75px;
+  padding-inline: 0;
+  /* padding-block: 0.5rem; */
+}
+
+.grey__background {
+  background-color: var(--gray-400-color);
+  border: none;
+  box-shadow: none;
+}
+
+.no__background {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.white-background {
+  background-color: var(--white-clr);
+  border: 1px solid var(--gray-400-color);
+  box-shadow: 0 0.125rem 5px -0.0625rem #0c1a241a;
+}
+
+.feature__title {
+  font-size: calc(var(--h3-fsz-small) - 8px);
+  width: var(--heading-width);
+  line-height: var(--heading-line-height);
+}
+
+.feature__description {
+  line-height: var(--line-height-1-6);
+  color: var(--gray-700-color);
+  margin-bottom: 0.5rem;
+  font-size: calc(var(--p-small-fsz) - 2px);
+}
+
+.feature__icon__wrapper {
+  background-color: var(--black-clr);
+  width: 48px;
+  height: 48px;
+  background-position: center;
+  display: flex;
+  border-radius: 0.25rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature__image__wrapper {
+  background-color: transparent;
+  /* width: 100%; */
+  height: 72px;
+  width: 100%;
+  height: 75px;
+  /* background-position: center; */
+  display: flex;
+  padding-block: 1rem;
+  /* justify-content: center;  */
+  align-items: center;
+  justify-content: center;
+}
+
+.feature__card :global(img) {
+  max-width: 100%;
+  height: 100px;
+  object-fit: contain;
+  filter: grayscale(100%);
+
+  /* border-radius: 0.25rem; */
+  /* display: none; */
+}
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  .feature__card {
+    /* width:calc(100% - 20%);   */
+
+    min-width: 280px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  .feature__card {
+    width: calc(100% - 20%);
+    min-width: 320px;
+  }
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .feature__card {
+    padding-inline: 0.6rem;
+    row-gap: 1rem;
+  }
+
+  @media screen and (max-width: 876px) and (min-width: 768px) {
+    .feature__card {
+      column-gap: 0.8rem;
+      flex-direction: column;
+    }
+  }
+}

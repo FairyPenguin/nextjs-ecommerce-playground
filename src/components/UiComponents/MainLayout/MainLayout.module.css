@@ -1,0 +1,31 @@
+.main__container {
+  /* --padding-inline-main-container: 3.75rem; */
+  --padding-inline-main-container: calc(3vw + 0.65rem);
+
+  margin-block: 0;
+  margin-inline: auto;
+  max-width: var(--max-width);
+  padding-inline: var(--padding-inline-main-container);
+}
+/* ------> Responsive Padding Media Queries  */
+
+/* @media screen and (min-width: 769px) and (max-width: 1024px) {
+    .main-container {
+      padding-inline: 40px;
+      padding-inline: 3vw;
+    }
+  }
+
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    .main-container {
+      padding-inline: 30px;
+    }
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+    .main-container {
+      padding-inline: 20px;
+    }
+  } */
+
+/*  Responsive Padding Media Queries  End <------ */

@@ -1,0 +1,38 @@
+.product__images__container {
+  display: flex;
+  flex: 1;
+  row-gap: 1.5rem;
+  column-gap: 1.4rem;
+}
+
+.main__image__wrapper {
+  flex: 4;
+}
+
+.main__image {
+  object-fit: cover;
+  width: 100%;
+  max-height: 800px;
+  margin-bottom: 0.5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.images__group {
+  flex: 2;
+  overflow: auto;
+  height: 575px;
+}
+
+.images__group__single__image {
+  object-fit: cover;
+  width: 100%;
+  height: 130px;
+  margin-bottom: 0.8rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.images__group::-webkit-scrollbar {
+  display: none;
+}

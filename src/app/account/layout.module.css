@@ -1,0 +1,10 @@
+.container {
+  position: sticky;
+  width: 300px;
+  background-color: #fff;
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+}

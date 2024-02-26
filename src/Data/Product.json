@@ -1,0 +1,75 @@
+{
+  "id": "number |=> Req",
+  "name": "string |=> Req",
+  "category": "string |=> Req",
+  "subCategory": "string |=> Optional",
+  "brandName": "string |=> Req",
+  "modelNumber": "string |=> Req",
+  "price": "number |=> Req",
+  "discountPrice": "number |=> Optional",
+  "inStock": "boolean |=> Req",
+
+  "quantityNoVariants": "number |=> Req [Minimum & Default is === 0]",
+
+  "variant_options ==> Optional Limit 4 Objects": [
+    {
+      "variantName => string Fixed/Hardcoded": "Color",
+      "VariantOptions =>Array[] Limit 10 Objects": [
+        {
+          "optionName => string": "Red",
+          "optionQuantity => number": 5,
+          "colorValue => string": "#000"
+        },
+        {
+          "optionName => string": "Blue",
+          "optionQuantity => number": 3,
+          "colorValue => string": "#fff"
+        }
+      ]
+    },
+    {
+      "variantName": "Storage",
+      "VariantOptions": [
+        {
+          "optionName": "64GB",
+          "optionQuantity": 2
+        },
+        {
+          "optionName": "128GB",
+          "optionQuantity": 1
+        }
+      ]
+    }
+  ],
+
+  "productImages": {
+    "mainImage": "URL STRING |=> Req",
+    "otherImages": [
+      "URL STRING",
+      "URL STRING",
+      "URL STRING",
+      "URL STRING",
+      "|=> Req"
+    ]
+  },
+
+  "description": "string |=> Req",
+  "specifications |=> Optional": [
+    {
+      "key": "value => string"
+    },
+    {
+      "key": "value => string"
+    },
+    {
+      "key": "value => string"
+    },
+    {
+      "key": "value => string"
+    }
+  ],
+
+  "notes": "string |=> optional",
+
+  "section": " multi choice enumeration ==> Optional"
+}

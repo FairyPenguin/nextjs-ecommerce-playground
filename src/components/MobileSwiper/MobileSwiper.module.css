@@ -1,0 +1,17 @@
+.slider__wrapper {
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+.slider {
+  display: flex;
+  overflow: auto;
+  scroll-snap-type: proximity;
+  scroll-behavior: smooth;
+  scroll-snap-align: center;
+  overscroll-behavior-inline: contain;
+}
+
+/* .slider::-webkit-scrollbar {
+  display: none;
+} */

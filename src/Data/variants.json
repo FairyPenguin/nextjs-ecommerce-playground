@@ -1,0 +1,20 @@
+{
+  "productVariants": [
+    {
+      "variantName": "Colors",
+      "variantOptions": [
+        { "option": "Red", "color": "#FF0000" },
+        { "option": "Blue", "color": "#0000FF" },
+        { "option": "Green", "color": "#00FF00" }
+      ]
+    },
+    {
+      "variantName": "Memory",
+      "variantOptions": ["64GB", "128GB"]
+    },
+    {
+      "variantName": "Ram",
+      "variantOptions": ["4GB", "8GB", "16GB"]
+    }
+  ]
+}

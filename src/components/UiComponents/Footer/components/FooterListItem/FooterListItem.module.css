@@ -1,0 +1,4 @@
+.list__item {
+  padding-bottom: 1rem;
+  color: var(--gray-500-color);
+}

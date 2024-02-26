@@ -1,0 +1,4 @@
+.footer__list__title {
+  font-size: var(--p-fsz-meduim);
+  padding-bottom: var(--heading-padding-bottom);
+}
